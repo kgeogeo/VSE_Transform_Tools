@@ -17,7 +17,7 @@ from bpy_extras import view3d_utils
 from bpy_extras import image_utils
 from bpy.props import BoolProperty, IntProperty, FloatProperty, IntVectorProperty, StringProperty, CollectionProperty
 
-######################################  add transform channel ##########################################################################
+######################################  add transform channel #############################################################################
 class TF_Add_Transform(bpy.types.Operator):
     bl_idname = "sequencer.tf_add_transform"
     bl_label = "Add Transform Effect"
