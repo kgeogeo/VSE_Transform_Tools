@@ -9,10 +9,7 @@ A select and deselect all strip
 Q for the strip opacity (alpha), work with ctrl and value too.
 ALT + Q Reinit Alpha.
 C : show the crop funtionnalitie, C again close it
-grab the corner or the cross to setup the crop.
-FOR MOVIE FILE
-At the moment, you need to see panel texture and in world texture, you know the small earth.
-(A patch come... I hope)
+    grab the corner or the cross to setup the crop.
 ALT + C: Reinit Crop.
 
 G, R, S grab rotate scale the strip(s)
