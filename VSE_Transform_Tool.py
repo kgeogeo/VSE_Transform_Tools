@@ -864,7 +864,7 @@ def draw_callback_px_crop(self, context):
     
     #Texture    
     texture1 = self.img.bindcode
-    bgl.glBindTexture(bgl.GL_TEXTURE_2D, texture1);
+    bgl.glBindTexture(bgl.GL_TEXTURE_2D, texture1[0]);
     bgl.glTexParameteri(bgl.GL_TEXTURE_2D, bgl.GL_TEXTURE_MAG_FILTER, bgl.GL_LINEAR)
     bgl.glTexParameteri(bgl.GL_TEXTURE_2D, bgl.GL_TEXTURE_MIN_FILTER, bgl.GL_LINEAR)        
     
